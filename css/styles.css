@@ -301,12 +301,22 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--accent-color);
+  background-color: #ffffff;
 }
 
 .command-icons-icon {
-  fill: #ffffff;
+  fill: ##AFB1B8;
 }
+
+.command-icons-icon:hover {
+  background-color: #ffffff;
+}
+
+.command-icons-link:hover {
+  background-color: var(--accent-color);
+}
+
+
 
 /* Футер */
 
