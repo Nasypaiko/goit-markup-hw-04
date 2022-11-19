@@ -95,6 +95,8 @@ img {
   line-height: 1.19;
   color: var(--logo-color);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-style {
@@ -125,16 +127,8 @@ img {
   color: var(--secondary-color);
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-.auth-nav .contacts-link:hover,
-.auth-nav .contacts-link:focus {
-  color: var(--accent-color);
-}
-
-.contacts-link:hover,
-:focus .icons {
-  fill: var(--accent-color);
+  display: flex;
+  align-items: center;
 }
 
 .site-nav {
@@ -147,15 +141,16 @@ img {
   gap: 50px;
 }
 
-.header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.auth-nav .contacts-link:hover,
+.auth-nav .contacts-link:focus {
+  color: var(--accent-color);
 }
 
 .icon {
   margin-right: 10px;
-  fill: var(--secondary-color);
+  fill: currentColor;
 }
+
 
 
 /* Герой */
@@ -171,8 +166,8 @@ img {
   height: 600px;
   text-align: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
